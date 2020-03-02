@@ -1,0 +1,36 @@
+/* Container holding image and text */
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    filter: contrast(180%);
+    
+}
+img{
+    padding-block-start: 1cm;
+    padding-block-end: 8cm;
+}
+/* Centered Text */
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    @font-face {
+        font-family: allura;
+        src: url(https://dl.1001fonts.com/allura.zip);
+    }
+    font-family: allura;
+}
+/* Tabs*/
+.tabs{
+    background-color: rgba(107, 170, 189, 0.993);
+    justify-content: space-between;
+}
